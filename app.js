@@ -5,8 +5,7 @@ button.addEventListener('click', () => {
   const g = Math.floor(Math.random() * 256);
   const b = Math.floor(Math.random() * 256);
   const newColor = `rgb(${r}, ${g}, ${b})`;
+  console.log(newColor);
   document.body.style.backgroundColor = newColor;
   h1.innerText = newColor;
 });
-
-rgb;
